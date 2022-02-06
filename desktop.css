@@ -8,7 +8,7 @@
         background-image: url(./IMG/Paisajes/desktop-portada.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 120vh;
     }
 
     .navbar-nav{
@@ -69,33 +69,16 @@
     .datos__cabanas{
         display: none;
     }
-    
-    .bloque-2__fotos{
+
+    .titulo__foto{
         display: none;
     }
-
-
-
-    .galeria-container{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: .5rem;
-        gap: .5rem;
-        width: 85%;
-        margin-left: 3rem;
-        /* margin: auto; */
+    
+    .bloque-2__fotos{
+        display: block;
+        padding-bottom: 2rem;
     }
 
-    .galeria__img{
-        width: 100%;
-        border-radius: 15px;
-    }
-
-   .galeria__item:nth-child(1){
-       grid-column: span 2;
-       grid-row: span 2;
-   }
 
    .texto-descripcion-cabanas{
        width: 90%;
@@ -112,7 +95,8 @@
     .tarjeta__iconos-cabanas{
     width: 50%;
     margin: auto;
-    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+
     }
 
     .tarjeta-container-protocolo{
@@ -125,16 +109,16 @@
 
     .datos__cabanas-protocolo{
         justify-items: flex-start;
-        padding: 1rem 0.9rem 0 1rem;
+        padding: 1rem 1.5rem 0 0;
         border-right: 1px solid black;
         margin: auto;
         
     }
 
     .complejo__tt_desk{
-        padding-left: 2rem;
+        padding-bottom: 2rem;
         font-size: 1.8rem;
-        padding-left: 3.1rem;
+        /* padding-left: 3.1rem; */
         /* padding-bottom: 1rem; */
     }
 
@@ -143,7 +127,7 @@
     }
 
     .item__t{
-        width: 22%;
+        width: 30%;
         justify-content: space-around;
     }
 
@@ -160,6 +144,7 @@
     .bloque-3{
         background-image: url(./IMG/Paisajes/Chilecito-Ruta-40-scaled.jpg);
         background-position: 60%;
+
     }
 
     .como-llegar__icono{
@@ -168,7 +153,7 @@
 
     .bloque-3__como-llegar{
         justify-content: flex-start;
-        padding: 1rem 1rem 1rem 2rem;
+        padding: 1rem 1rem 1rem 4rem;
     
     }
 
@@ -177,6 +162,7 @@
         font-size: 2rem;
     }
 
+
     .box-tarjetas-rutas{
         display: flex;
         flex-direction: row ;
@@ -184,6 +170,7 @@
         align-items: center;
         width: 65%;
         margin: auto;
+        padding-bottom: 4rem;
     }
 
     .box-container{
